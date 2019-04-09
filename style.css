@@ -1,0 +1,23 @@
+#card-container {
+  display: grid;
+  grid-gap: 50px 100px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.card {
+  flex-direction: column;
+  background-color: beige;
+  height: 250px;
+  width: 200px;
+  color: navy;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+#randomnaam {
+  color: red;
+}
+
+
+/* okoko */
