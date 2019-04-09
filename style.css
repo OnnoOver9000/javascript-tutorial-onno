@@ -1,11 +1,13 @@
+
+/* This discribes the card-container styling */
 #card-container {
-  display: grid;
-  grid-gap: 50px 100px;
-  grid-template-columns: auto auto auto auto auto auto auto;
+  display: grid; /* This sets the display of this element to grid mode. */
+  grid-gap: 50px 100px; /* This sets the gab between grids */
+  grid-template-columns: auto auto auto auto; /* this sets grids in 4, auto aligned */
+  justify-items: center; /* This centers all the grid childs in center */
 }
 
 .card {
-  flex-direction: column;
   background-color: beige;
   height: 250px;
   width: 200px;

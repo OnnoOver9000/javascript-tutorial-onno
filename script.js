@@ -19,7 +19,8 @@ window.onload = function() {
 function createCard(name) {
   const cardContainer = document.getElementById('card-container');
   const card = document.createElement('div');
-  card.innerHTML = `<div class="card"><b>${name}</b></div>`;
+  card.className = 'card';
+  card.innerHTML = `<b>${name}</b>`;
   cardContainer.appendChild(card);
   card.onclick = function() {
     console.log('click', name);
